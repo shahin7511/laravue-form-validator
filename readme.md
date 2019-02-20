@@ -2,11 +2,17 @@
 
 > A reactive laravel errors handling library
 
-### Build Setup
+### To install
 
 ```
-#to install 
-$npm install laravue-form-validator --save 
+$ npm install @shahin7511/laravue-form-validator --save 
+```
+
+#### How to use
+
+
+```
+import {FormValidator} from '@shahin7511/laravue-form-validator'
 ```
 
 #####Required dependency Vuex
