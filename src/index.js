@@ -1,13 +1,11 @@
-export var FormValidator = {
+export default {
   methods: {
     hasError: function (field) {
-      if (!this.$store === undefined) {
         for (var key in this.$store.state.errors) {
           if (key === field) {
             return true
           }
         }
-      }
       return false
     },
     first: function (field) {
