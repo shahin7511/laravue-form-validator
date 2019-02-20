@@ -37,7 +37,7 @@ import {FormValidator} from '@shahin7511/laravue-form-validator'
 ```
 //in vue template
 
-<div class="form-group" v-bind:class="{'has-error':hasError('email')}">
+<div class="form-group" v-bind:class="{'has-error':hasError('name')}">
     <label for="name">Name</label>
     <input type="text" name="name" id="name" class="form-control">
     <p class="text-danger" v-if="hasError('name')" v-html="first('name')"></p>
