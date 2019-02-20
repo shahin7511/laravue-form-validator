@@ -1,14 +1,17 @@
 {
-  "name": "form-validator",
+  "name": "@shahin7511/laravue-form-validator",
   "version": "1.0.0",
   "description": "Laravel errors validating in VueJS",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "shahin7511/laravue-form-validator",
   "keywords": [
-    "form-validator"
+    "form-validator",
+    "laravue-form-validator",
+    "laravel vue form validator"
   ],
-  "author": "shahin sheikh",
-  "license": "ISC"
+  "author": "Shahin Sheikh",
+  "license": "MIT"
 }
